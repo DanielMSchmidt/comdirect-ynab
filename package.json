@@ -4,12 +4,15 @@
   "description": "Comdirect adapter for YNAB",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "node index.js"
   },
   "keywords": [
     "ynab",
     "comdirect"
   ],
   "author": "DanielMSchmidt <danielmschmidt92@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ynab": "^0.15.0"
+  }
 }
