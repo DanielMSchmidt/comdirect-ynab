@@ -1,0 +1,15 @@
+{
+  "name": "comdirect-ynab",
+  "version": "1.0.0",
+  "description": "Comdirect adapter for YNAB",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "ynab",
+    "comdirect"
+  ],
+  "author": "DanielMSchmidt <danielmschmidt92@gmail.com>",
+  "license": "MIT"
+}
