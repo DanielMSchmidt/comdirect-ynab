@@ -1,6 +1,11 @@
 const ynab = require("ynab");
+const puppeteer = require("puppeteer");
+const log = require("npmlog");
+
 const accessToken = process.env.ACCESS_TOKEN;
 const budgetName = process.env.BUDGET;
+const username = process.env.USERNAME;
+const password = process.env.PASSWORD;
 
 if (!accessToken) {
   throw "Please provide an access token as ACCESS_TOKEN";
